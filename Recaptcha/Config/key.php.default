@@ -1,0 +1,10 @@
+<?php
+
+$config = array(
+	'Recaptcha' => array(
+		'Public'  => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+		'Private' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+	),
+);
+
+?>
