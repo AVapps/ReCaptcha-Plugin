@@ -1,4 +1,5 @@
-CakePHP 2 ReCaptcha Plugin based on CakepPHP 1 tbsmcd's plugin.
+CakePHP 2 ReCaptcha Plugin
+based on CakepPHP 1 tbsmcd's plugin.
 
 *****************
 Quick start guide
@@ -9,12 +10,12 @@ http://www.google.com/recaptcha
 
 2. Setting.
 Download recaptchalib.php.
-And put it in Recaptcha/Vendor.
+And put it in recaptcha_plugin/vendors.
 http://code.google.com/p/recaptcha/downloads/list?q=label:phplib-Latest
 
 3. Config.
 Insert keys in Recaptcha/Config/key.php .
-  $config = array(
+	$config = array(
 		'Recaptcha' => array(
 			'Public'  => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
 			'Private' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
