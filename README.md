@@ -46,8 +46,8 @@ Inside <form> tags:
 	$options : any recaptcha supported option (theme, lang, custom_translations, custom_theme_widget, tabindex)
 		example:
 			echo $this->Recaptcha->show(array(
-				'theme' => 'white',
-				'lang' => 'fr',
+				'theme' => 'light',
+				'lang' => 'en',
 			));
 	
 	echo $this->Recaptcha->error();
